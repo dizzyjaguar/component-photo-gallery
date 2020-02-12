@@ -9,3 +9,15 @@
   font-style: oblique;
   border: 1px solid rebeccapurple;
 }
+
+#image-list-div {
+  border: 5px solid crimson;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+
+}
+
+.an-image {
+  border: 1px solid cornflowerblue;
+}
+

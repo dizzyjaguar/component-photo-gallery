@@ -18,12 +18,13 @@ img {
 
 #image-list-div {
   border: 5px solid crimson;
-  display: grid;
-  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
-
+  /* display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr; */
 }
 
-.an-image {
+.image-item {
+  margin: 5px;
+  display: inline-block;
   border: 1px solid cornflowerblue;
 }
 
